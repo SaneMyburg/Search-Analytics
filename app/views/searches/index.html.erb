@@ -1,0 +1,12 @@
+<div>
+  <input type="text" id="search-box" placeholder="Type your search">
+</div>
+
+<div>
+  <h3>Search History:</h3>
+  <% @search_history.each do |history| %>
+    <p><%= history.query %></p>
+  <% end %>
+</div>
+
+<%= link_to 'Go to Analytics', analytics_index_path %>
