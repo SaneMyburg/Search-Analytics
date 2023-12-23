@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'searches/index'
-  post 'searches', to: 'searches#search'
+  post '/search', to: 'searches#search'
   get 'analytics/index'
   root 'searches#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

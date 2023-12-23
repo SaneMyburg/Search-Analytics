@@ -9,4 +9,3 @@
 #   end
 
 User.create(name: 'User1', email: 'dummy1@example.com')
-User.create(name: 'User2', email: 'dummy2@example.com')
